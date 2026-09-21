@@ -1,8 +1,6 @@
-main()
+def repeat(n):
+    for _ in range(n):
+        print("A")
+        print("B")
 
-def main():
-    print("Hello, World!")
-    test()
-
-def test():
-    print("Testing...")
+repeat(3)
